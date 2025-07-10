@@ -21,6 +21,7 @@ export default function Tables({ tables }: Tab) {
           <div key={index}>
             <button onClick={() => setTableIndex(index)}
               style={{
+                margin: "2px",
                 padding: "0.5rem 1rem",
                 backgroundColor: tableIndex === index ? "#333" : "#ccc",
                 color: tableIndex === index ? "#fff" : "#000",
